@@ -1,10 +1,11 @@
 import Text from './components/Text/Text.js'
+import Button from './components/Button/Button.js'
 //import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <Text />
+    <Button />
   );
 }
 //style={{color: 'blue'}}
