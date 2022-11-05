@@ -1,12 +1,12 @@
 import React from 'react';
 import './button.css'
 
-function labelBotao(){
-    alert(`A label desse botao é ${Button.defaultProps.label}`)
-}
-
 const Button = (props) => {
-    return <button className="btn" onClick={labelBotao}>{props.label}</button>
+    function labelButton(){
+        alert(`A label desse botao é ${Button.defaultProps.label}`)
+    }
+
+    return <button className="btn" onClick={labelButton}>{props.label}</button>
 }
 
 Button.defaultProps = {
