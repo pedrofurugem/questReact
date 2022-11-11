@@ -1,13 +1,12 @@
-import Text from './components/Text/Text.js'
-import Button from './components/Button/Button.js'
-
+import Text from './components/Text/index'
+import Button from './components/Button/index'
 import './App.css';
 
 function App() {
   return (
     <>
-      <Button />
-      <Text />
+    <Button />
+    <Text />
     </>
   );
 }
